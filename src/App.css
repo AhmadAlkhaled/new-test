@@ -2,24 +2,20 @@
   text-align: center;
   height: 100vh;
   background-color: rgb(53, 53, 53);
-
 }
 img{
   width: 100%;
-  
 }
 .wether{
   width: 50%;
   max-width:700px ;
   height: 100vh;
-  background-color: aqua;
+  background-color: rgb(81, 71, 71);
   margin:  0 auto;
-  background-image: url("https://i.pinimg.com/originals/49/f3/a7/49f3a7798d8f41314ab9e8d8e8d59141.jpg");
+  background-image: url('https://www.teahub.io/photos/full/2-22491_iphone-8-wallpaper-clouds.jpg');
   background-position: center center;
   background-size: cover;
   overflow: hidden;
-  overflow-y: auto;
-  
 }
 [type='text']{
   width: calc(100% - 22px ) ;
@@ -38,7 +34,6 @@ img{
 .wether-info{
   width: calc( 100% - 40px ) ;
   height: 80%;
-  /* background-color: rgba(255, 255, 255, 0.233); */
   padding: 20px;
   margin: 50px  0px;
 }
@@ -51,7 +46,7 @@ h1{
   width: 80%;
   max-width: 400px;
   height:350px;
-  background-color: #00000098;
+  background-color: #2c2b2b98;
   margin: 0 auto;
   color:white;
   font-weight: bolder;
@@ -65,7 +60,6 @@ h1{
   color:white;
   font-size:30px;
   margin-top:100px;
-
 }
 .g{
   width: 100%;
@@ -85,11 +79,10 @@ h1{
   font-weight: bolder;
 }
 .wind{
-  
   width: calc( 80% - 40px ) ;
   max-width: 400px;
   margin: 0 auto;
-  background-color: #00000098;
+  background-color: #2c2b2b98;
   border-radius: 20px;
   color:white;
   font-weight: bolder;
@@ -107,21 +100,17 @@ h2{
   display: flex;
   justify-content: space-around;
   font-size: 30px;
-
 }
 .icon{
   display: block;
   width: 150px;
   height: 150px;
- 
 }
 .g{
   display: flex;
   justify-content: center;
   align-items: center;
- 
 }
-
 .f{
   width: 100%;
   text-align: center;
